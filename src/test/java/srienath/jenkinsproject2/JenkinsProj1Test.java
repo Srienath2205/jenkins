@@ -8,11 +8,11 @@ class JenkinsProj1Test {
 
 	@Test
 	void testCompareString() {
-		assertTrue(JenkinsProj1.CompareString("srienath", "srienath"));
+		assertTrue(JenkinsProj1.compareString("srienath", "srienath"));
 	}
 	@Test
 	void testCompareString1() {
-		assertFalse(JenkinsProj1.CompareString("srienath", "sreenath"));
+		assertFalse(JenkinsProj1.compareString("srienath", "sreenath"));
 	}
 
 }
